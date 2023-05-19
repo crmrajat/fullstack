@@ -41,7 +41,7 @@ Install dotenv package for environment files
 -   Create a database -> database name = techNotesDB & collection=users
 -   Database access -> Create a database user -> add new database user -> Give the read and write to any database privileges
 -   Goto Databases -> Connect -> allow access from anywhere -> add ip address button-> choose a connection method -> Connecting with MongoDB Driver (NodeJs) -> copy the connection string.
--   Paste the Communication string in env file(DATABASE_URI) with encoding applied to it for special characters -> method = encodeURIComponent("<password>").
+-   Paste the Communication string in env file(DATABASE_URI) with encoding applied to it for special characters -> method = encodeURIComponent("password").
 -   Done ✅
 
 Install mongoose package for communicating with the MongoDB
